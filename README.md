@@ -2,6 +2,7 @@
 
 ### Important Links
 🤗[Modelscope Space](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
+
 Model coming soon...
 
 ## Overview
