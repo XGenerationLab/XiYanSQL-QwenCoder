@@ -84,7 +84,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 
 ## Acknowledgments
-If you find our work useful, please give us a citation or a thumbs up, so we can make a greater contribution to the open-source community!
+If you find our work useful, please give us a citation or a star, so we can make a greater contribution to the open-source community!
 
 
 
