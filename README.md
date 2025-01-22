@@ -12,7 +12,7 @@
 ## Introduction
 We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and we look forward to contributing to the text-to-SQL community.
 **XiYanSQL-QwenCoder-32B**, a SQL model fine-tuned on the Qwen2.5Coder-32B model, achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
-
+In the future, we will release more SQL-related models.
 
 
 ## Requirements
@@ -79,9 +79,11 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 ```
 
+## Performance
 
 
-
+## Acknowledgments
+If you find our work useful, please give us a citation or a thumbs up, so we can make a greater contribution to the open-source community!
 
 
 
