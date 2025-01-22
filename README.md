@@ -8,6 +8,7 @@
 🌕[析言GBI](https://bailian.console.aliyun.com/xiyan) |
 🤗[Modelscope Space](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
+HuggingFace linking is coming...
 
 ## Introduction
 We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and we look forward to contributing to the text-to-SQL community.
