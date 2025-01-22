@@ -2,12 +2,16 @@
 
 ### Important Links
 
-🤖[ModelScope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)
+
+🤖[ModelScope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412) |
+📖[XiYan-SQL](https://github.com/XGenerationLab/XiYan-SQL) |
+🌕[析言GBI](https://bailian.console.aliyun.com/xiyan) |
 🤗[Modelscope Space](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
 
 ## Introduction
-XiYanSQL-QwenCoder-32B, a SQL model fine-tuned on the Qwen2.5Coder-32B model, achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
+We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and we look forward to contributing to the text-to-SQL community.
+**XiYanSQL-QwenCoder-32B**, a SQL model fine-tuned on the Qwen2.5Coder-32B model, achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
 
 
 
