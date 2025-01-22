@@ -22,11 +22,11 @@ transformers >= 4.37.0
 ## Quickstart
 
 Here is a simple code snippet for quickly using **XiYanSQL-QwenCoder-32B** model. We provide a Chinese version of the prompt, and you just need to replace the placeholders for "question," "db_schema," and "evidence" to get started. We recommend using our [M-Schema](https://github.com/XGenerationLab/M-Schema) format for the schema; other formats such as DDL are also acceptable, but they may affect performance.
-
+Currently, we mainly support mainstream dialects like SQLite, PostgreSQL, and MySQL.
 
 ```
 
-nl2sqlite_template_cn = """你是一名SQLite专家，现在需要阅读并理解下面的【数据库schema】描述，以及可能用到的【参考信息】，并运用SQLite知识生成sql语句回答【用户问题】。
+nl2sqlite_template_cn = """你是一名{dialect}专家，现在需要阅读并理解下面的【数据库schema】描述，以及可能用到的【参考信息】，并运用{dialect}知识生成sql语句回答【用户问题】。
 【用户问题】
 {question}
 
@@ -53,7 +53,8 @@ model = AutoModelForCausalLM.from_pretrained(
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-prompt = nl2sqlite_template_cn.format(db_schema="", question="", evidence="")
+## dialects -> ['SQLite', 'PostgreSQL', 'MySQL']
+prompt = nl2sqlite_template_cn.format(dialect="", db_schema="", question="", evidence="")
 message = [{'role': 'user', 'content': prompt}]
 
 text = tokenizer.apply_chat_template(
