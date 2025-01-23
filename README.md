@@ -22,6 +22,9 @@ transformers >= 4.37.0
 
 ## Quickstart
 
+> NOTE: XiYanSQL-QwenCoder-32B can be used directly for text-to-SQL tasks or serve as a better starting point for fine-tuning SQL models.
+
+
 Here is a simple code snippet for quickly using **XiYanSQL-QwenCoder-32B** model. We provide a Chinese version of the prompt, and you just need to replace the placeholders for "question," "db_schema," and "evidence" to get started. We recommend using our [M-Schema](https://github.com/XGenerationLab/M-Schema) format for the schema; other formats such as DDL are also acceptable, but they may affect performance.
 Currently, we mainly support mainstream dialects like SQLite, PostgreSQL, and MySQL.
 
