@@ -85,6 +85,20 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ```
 
 ## Performance
+XiYanSQL-QwenCoder-32B, as a multi-dialect SQL base model, demonstrating robust SQL generation capabilities. The following presents the evaluation results at the time of release. We conducted a comprehensive evaluation of the model's performance under two schema formats, M-Schema, and original DDL, using the BIRD and Spider benchmarks in the Text-to-SQL domain.
+
+| Model name|BIRD Dev@M-Schema |BIRD Dev@DDL|Spider Test@M-Schema|Spider Test@DDL|
+|-----------|------------------|---------------|-------------------|---------------|
+|Codellama-34b              | 33.05%     | -          | 65.88%      | -           |
+|Deepseek-coder-33b         | 47.52%     | 44.72%     | -           | 70.22%      |
+|TableGPT2                  | 46.35%     | 47.07%     | 72.89%      | 74.41%      |
+|Codestral 22b              | 50.52%     | 47.00%     | 76.12%      | 72.39%      |
+|Claude35_sonnet-1022       | 53.32%     | -          | 73.65%      | -           |
+|GLM-4-plus                 | 54.37%     | -          | 77.28%      | -           |
+|Deepseek(v2.5-1210)        | 55.74%     | 55.61%     | 79.86%      | 77.54%      |
+|Gemini-1.5-pro             | 61.34%     | -          | 82.84%      | -           |
+|GPT-4o-0806                | 58.47%     | 54.82%     | 80.41%      | 75.77%      |
+|**XiYanSQL-QwenCoder-32B** | **67.01%** | **63.04%** | **86.52%**  | **83.44%**  |
 
 
 ## Acknowledgments
