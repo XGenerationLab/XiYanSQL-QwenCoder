@@ -1,19 +1,24 @@
-#  XiYanSQL-QwenCoder-32B
+#  XiYanSQL-QwenCoder Models
 
 ### Important Links
 
 
-🤖[ModelScope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412) |
+🤖[ModelScope](https://modelscope.cn/collections/XiYanSQL-Models-4483337b614241) |
 📖[XiYan-SQL](https://github.com/XGenerationLab/XiYan-SQL) |
 🌕[析言GBI](https://bailian.console.aliyun.com/xiyan) |
 🤗[Modelscope Space](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
 HuggingFace linking is coming...
 
+## News
+We are excited to open source the XiYanSQL-QwenCoder series model, dedicated to advancing the development of LLMs in the Text-to-SQL domain. 
+
+Building on our previous release of the powerful **32B** model, this release introduces three model sizes: **3B**, **7B**, and **14B**. As of now, XiYanSQL-QwenCoder covers a variety of mainstream model sizes to meet the needs of different developers.
+
 ## Introduction
-We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and we look forward to contributing to the text-to-SQL community.
+
+We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and we look forward to contributing to the Text-to-SQL community.
 **XiYanSQL-QwenCoder-32B**, a SQL model fine-tuned on the Qwen2.5Coder-32B model, achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
-In the future, we will release more SQL-related models.
 
 
 ## Requirements
@@ -22,10 +27,10 @@ transformers >= 4.37.0
 
 ## Quickstart
 
-> NOTE: XiYanSQL-QwenCoder-32B can be used directly for text-to-SQL tasks or serve as a better starting point for fine-tuning SQL models.
+> NOTE: XiYanSQL-QwenCoder models can be used directly for text-to-SQL tasks or serve as a better starting point for fine-tuning SQL models.
 
 
-Here is a simple code snippet for quickly using **XiYanSQL-QwenCoder-32B** model. We provide a Chinese version of the prompt, and you just need to replace the placeholders for "question," "db_schema," and "evidence" to get started. We recommend using our [M-Schema](https://github.com/XGenerationLab/M-Schema) format for the schema; other formats such as DDL are also acceptable, but they may affect performance.
+Here is a simple code snippet for quickly using **XiYanSQL-QwenCoder** model. We provide a Chinese version of the prompt, and you just need to replace the placeholders for "question," "db_schema," and "evidence" to get started. We recommend using our [M-Schema](https://github.com/XGenerationLab/M-Schema) format for the schema; other formats such as DDL are also acceptable, but they may affect performance.
 Currently, we mainly support mainstream dialects like SQLite, PostgreSQL, and MySQL.
 
 ```
@@ -89,16 +94,19 @@ XiYanSQL-QwenCoder-32B, as a multi-dialect SQL base model, demonstrating robust 
 
 | Model name|BIRD Dev@M-Schema |BIRD Dev@DDL|Spider Test@M-Schema|Spider Test@DDL|
 |-----------|------------------|---------------|-------------------|---------------|
-|Codellama-34b              | 33.05%     | -          | 65.88%      | -           |
-|Deepseek-coder-33b         | 47.52%     | 44.72%     | -           | 70.22%      |
-|TableGPT2                  | 46.35%     | 47.07%     | 72.89%      | 74.41%      |
-|Codestral 22b              | 50.52%     | 47.00%     | 76.12%      | 72.39%      |
-|Claude35_sonnet-1022       | 53.32%     | -          | 73.65%      | -           |
-|GLM-4-plus                 | 54.37%     | -          | 77.28%      | -           |
-|Deepseek(v2.5-1210)        | 55.74%     | 55.61%     | 79.86%      | 77.54%      |
-|Gemini-1.5-pro             | 61.34%     | -          | 82.84%      | -           |
-|GPT-4o-0806                | 58.47%     | 54.82%     | 80.41%      | 75.77%      |
-|**XiYanSQL-QwenCoder-32B** | **67.01%** | **63.04%** | **86.52%**  | **83.44%**  |
+|Codellama-34b              | 33.05%     | -          | 67.74%      | -           |
+|Deepseek-coder-33b         | 47.52%     | 44.72%     | 72.39%      | -           |
+|TableGPT2                  | 46.35%     | 47.07%     | 74.76%      | 77.28%      |
+|Codestral 22b              | 50.52%     | 47.00%     | 78.45%      | 75.47%      |
+|GLM-4-plus                 | 54.37%     | -          | 79.40%      | -           |
+|Claude35_sonnet-1022       | 53.32%     | 50.46%     | 76.27%      | 73.04%      |
+|Deepseek(v2.5-1210)        | 55.74%     | 55.61%     | 82.08%      | 80.57%      |
+|Gemini-1.5-pro             | 61.34%     | 57.89%     | 85.11%      | 84.00%      |
+|GPT-4o-0806                | 58.47%     | 54.82%     | 82.89%      | 78.45%      |
+|XiYanSQL-QwenCoder-3B      | 54.11%     | 53.19%     | 82.69%      | 78.85%      |
+|XiYanSQL-QwenCoder-7B      | 59.78%     | 56.58%     | 84.86%      | 80.31%      |
+|XiYanSQL-QwenCoder-14B     | 63.10%     | 60.37%     | 85.76%      | 82.79%      |
+|XiYanSQL-QwenCoder-32B     | 67.01%     | 63.04%     | 88.39%      | 85.46%      |
 
 
 ## Acknowledgments
