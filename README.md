@@ -21,6 +21,39 @@ We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and w
 **XiYanSQL-QwenCoder-32B**, a SQL model fine-tuned on the Qwen2.5Coder-32B model, achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
 
 
+## Model Downloads
+
+
+| **Model** | **Download Latest** |
+|-----------|------------------|
+|XiYanSQL-QwenCoder-3B  |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2502)|
+|XiYanSQL-QwenCoder-7B  |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-7B-2502)|
+|XiYanSQL-QwenCoder-14B |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-14B-2502)|
+|XiYanSQL-QwenCoder-32B |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)|
+
+
+
+## Performance
+The XiYanSQL-QwenCoder models, as multi-dialect SQL base models, demonstrating robust SQL generation capabilities. The following presents the evaluation results at the time of release. We conducted a comprehensive evaluation of the model's performance under two schema formats, M-Schema, and original DDL, using the BIRD and Spider benchmarks in the Text-to-SQL domain.
+
+| Model name|BIRD Dev@M-Schema |BIRD Dev@DDL|Spider Test@M-Schema|Spider Test@DDL|
+|-----------|------------------|---------------|-------------------|---------------|
+|Codellama-34b              | 33.05%     | -          | 67.74%      | -           |
+|Deepseek-coder-33b         | 47.52%     | 44.72%     | 72.39%      | -           |
+|TableGPT2                  | 46.35%     | 47.07%     | 74.76%      | 77.28%      |
+|Codestral 22b              | 50.52%     | 47.00%     | 78.45%      | 75.47%      |
+|GLM-4-plus                 | 54.37%     | -          | 79.40%      | -           |
+|Claude35_sonnet-1022       | 53.32%     | 50.46%     | 76.27%      | 73.04%      |
+|Deepseek(v2.5-1210)        | 55.74%     | 55.61%     | 82.08%      | 80.57%      |
+|Gemini-1.5-pro             | 61.34%     | 57.89%     | 85.11%      | 84.00%      |
+|GPT-4o-0806                | 58.47%     | 54.82%     | 82.89%      | 78.45%      |
+|XiYanSQL-QwenCoder-3B      | 54.11%     | 53.19%     | 82.69%      | 78.85%      |
+|XiYanSQL-QwenCoder-7B      | 59.78%     | 56.58%     | 84.86%      | 80.31%      |
+|XiYanSQL-QwenCoder-14B     | 63.10%     | 60.37%     | 85.76%      | 82.79%      |
+|XiYanSQL-QwenCoder-32B     | 67.01%     | 63.04%     | 88.39%      | 85.46%      |
+
+
+
 ## Requirements
 
 transformers >= 4.37.0
@@ -89,24 +122,6 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 ```
 
-## Performance
-XiYanSQL-QwenCoder-32B, as a multi-dialect SQL base model, demonstrating robust SQL generation capabilities. The following presents the evaluation results at the time of release. We conducted a comprehensive evaluation of the model's performance under two schema formats, M-Schema, and original DDL, using the BIRD and Spider benchmarks in the Text-to-SQL domain.
-
-| Model name|BIRD Dev@M-Schema |BIRD Dev@DDL|Spider Test@M-Schema|Spider Test@DDL|
-|-----------|------------------|---------------|-------------------|---------------|
-|Codellama-34b              | 33.05%     | -          | 67.74%      | -           |
-|Deepseek-coder-33b         | 47.52%     | 44.72%     | 72.39%      | -           |
-|TableGPT2                  | 46.35%     | 47.07%     | 74.76%      | 77.28%      |
-|Codestral 22b              | 50.52%     | 47.00%     | 78.45%      | 75.47%      |
-|GLM-4-plus                 | 54.37%     | -          | 79.40%      | -           |
-|Claude35_sonnet-1022       | 53.32%     | 50.46%     | 76.27%      | 73.04%      |
-|Deepseek(v2.5-1210)        | 55.74%     | 55.61%     | 82.08%      | 80.57%      |
-|Gemini-1.5-pro             | 61.34%     | 57.89%     | 85.11%      | 84.00%      |
-|GPT-4o-0806                | 58.47%     | 54.82%     | 82.89%      | 78.45%      |
-|XiYanSQL-QwenCoder-3B      | 54.11%     | 53.19%     | 82.69%      | 78.85%      |
-|XiYanSQL-QwenCoder-7B      | 59.78%     | 56.58%     | 84.86%      | 80.31%      |
-|XiYanSQL-QwenCoder-14B     | 63.10%     | 60.37%     | 85.76%      | 82.79%      |
-|XiYanSQL-QwenCoder-32B     | 67.01%     | 63.04%     | 88.39%      | 85.46%      |
 
 
 ## Acknowledgments
