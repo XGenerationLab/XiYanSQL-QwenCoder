@@ -37,7 +37,7 @@ We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and w
 The XiYanSQL-QwenCoder models, as multi-dialect SQL base models, demonstrating robust SQL generation capabilities. The following presents the evaluation results at the time of release. We conducted a comprehensive evaluation of the model's performance under two schema formats, M-Schema, and original DDL, using the BIRD and Spider benchmarks in the Text-to-SQL domain.
 
 | Model name|BIRD Dev@M-Schema |BIRD Dev@DDL|Spider Test@M-Schema|Spider Test@DDL|
-|-----------|------------------|---------------|-------------------|---------------|
+|-----------|:------------------:|:---------------:|:-------------------:|:---------------:|
 |Codellama-34b              | 33.05%     | -          | 67.74%      | -           |
 |Deepseek-coder-33b         | 47.52%     | 44.72%     | 72.39%      | -           |
 |TableGPT2                  | 46.35%     | 47.07%     | 74.76%      | 77.28%      |
