@@ -2,17 +2,17 @@
 
 ### Important Links
 
-
+💻[HuggingFace](https://huggingface.co/collections/XGenerationLab/xiyansql-models-67c9844307b49f87436808fc) |
 🤖[ModelScope](https://modelscope.cn/collections/XiYanSQL-Models-4483337b614241) |
 📖[XiYan-SQL](https://github.com/XGenerationLab/XiYan-SQL) |
 🌕[析言GBI](https://bailian.console.aliyun.com/xiyan) |
 🤗[Modelscope Space](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
-HuggingFace linking is coming...
 
-## News
+## News🔥
+We have updated the model links on the Hugging Face platform.
+
 We are excited to open source the XiYanSQL-QwenCoder series model, dedicated to advancing the development of LLMs in the Text-to-SQL domain. 
-
 Building on our previous release of the powerful **32B** model, this release introduces three model sizes: **3B**, **7B**, and **14B**. As of now, XiYanSQL-QwenCoder covers a variety of mainstream model sizes to meet the needs of different developers.
 
 ## Introduction
