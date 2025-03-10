@@ -26,10 +26,10 @@ We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and w
 
 | **Model** | **Download Latest** |
 |-----------|------------------|
-|XiYanSQL-QwenCoder-3B  |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2502)|
-|XiYanSQL-QwenCoder-7B  |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-7B-2502)|
-|XiYanSQL-QwenCoder-14B |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-14B-2502)|
-|XiYanSQL-QwenCoder-32B |[🤗 Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)|
+|XiYanSQL-QwenCoder-3B  |💻[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-3B-2502) 🤗[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2502)|
+|XiYanSQL-QwenCoder-7B  |💻[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-7B-2502) 🤗[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-7B-2502)|
+|XiYanSQL-QwenCoder-14B |💻[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-14B-2502) 🤗[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-14B-2502)|
+|XiYanSQL-QwenCoder-32B |💻[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-32B-2412) 🤗[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)|
 
 
 
