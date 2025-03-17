@@ -17,8 +17,10 @@ Building on our previous release of the powerful **32B** model, this release int
 
 ## Introduction
 
-We open-source the first XiYanSQL-QwenCoder-32B model on January 22, 2025, and we look forward to contributing to the Text-to-SQL community.
-**XiYanSQL-QwenCoder-32B**, a SQL model fine-tuned on the Qwen2.5Coder-32B model, achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
+We are excited to open source the XiYanSQL-QwenCoder series model, dedicated to advancing the development of LLMs in the text-to-SQL domain. As of now, XiYanSQL-QwenCoder covers four mainstream model sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers.
+- The XiYanSQL-QwenCoder model demonstrates strong performance in SQL generation, with the **XiYanSQL-QwenCoder-32B** achieving a **69.03%** EX score on the BIRD TEST set, setting a new SOTA with a single fine-tuned model. Other models in the series also maintain a leading position at their respective sizes.
+- The XiYanSQL-QwenCoder model supports multiple SQL dialects, such as SQLite, PostgreSQL, and MySQL.
+- The XiYanSQL-QwenCoder model can be used directly for text-to-SQL tasks or serve as a better starting point for fine-tuning SQL models.
 
 
 ## Model Downloads
