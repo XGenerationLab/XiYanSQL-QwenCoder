@@ -40,7 +40,9 @@ In this evaluation, we have also added **a real-world SQL benchmark (the DW test
 
 | **Model** | **Download Latest** |
 |-----------|------------------|
+|**XiYanSQL-QwenCoder-3B-2504**  | 🤗[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-3B-2504) 🤖[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2504)   |
 |**XiYanSQL-QwenCoder-7B-2504**  | 🤗[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-7B-2504) 🤖[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-7B-2504)   |
+|**XiYanSQL-QwenCoder-14B-2504**  | 🤗[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-14B-2504) 🤖[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-14B-2504)   |
 |**XiYanSQL-QwenCoder-32B-2504** | 🤗[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-32B-2504) 🤖[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2504) |
 |XiYanSQL-QwenCoder-3B-2502  |🤗[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-3B-2502) 🤖[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2502)|
 |XiYanSQL-QwenCoder-7B-2502  |🤗[HuggingFace](https://huggingface.co/XGenerationLab/XiYanSQL-QwenCoder-7B-2502) 🤖[Modelscope](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-7B-2502)|
