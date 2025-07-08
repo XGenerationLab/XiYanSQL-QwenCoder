@@ -5,6 +5,7 @@
 🤗[HuggingFace](https://huggingface.co/collections/XGenerationLab/xiyansql-models-67c9844307b49f87436808fc) |
 🤖[ModelScope](https://modelscope.cn/collections/XiYanSQL-Models-4483337b614241) |
 📖[XiYan-SQL](https://github.com/XGenerationLab/XiYan-SQL) |
+📄[Arxiv](https://arxiv.org/abs/2507.04701)| 
 🌕[析言GBI](https://bailian.console.aliyun.com/xiyan) |
 💻[Modelscope Space](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
