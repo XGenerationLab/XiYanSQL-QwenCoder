@@ -174,6 +174,19 @@ outputs = llm.generate([text], sampling_params=sampling_params)
 response = outputs[0].outputs[0].text
 ```
 
+## Contact us:
+
+If you are interested in our research or products, please feel free to contact us.
+
+#### Contact Information:
+
+Yifu Liu, zhencang.lyf@alibaba-inc.com
+
+#### Join Our DingTalk Group
+
+<a href="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql_dingding.png">Ding Group钉钉群</a> 
+
+
 
 ## Acknowledgments
 If you find our work useful, please give us a citation or a star, so we can make a greater contribution to the open-source community!
